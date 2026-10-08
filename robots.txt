@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://djbillfritz-gif.github.io/heartbeats-percussion-studio/sitemap.xml
