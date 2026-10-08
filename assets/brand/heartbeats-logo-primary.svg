@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+<title id="title">Heartbeats Percussion Studio</title><desc id="desc">Heartbeats Percussion Studio logo.</desc>
+<defs><style>.word{font-family:Arial,Helvetica,sans-serif;font-weight:900;letter-spacing:1px}.sub{font-family:Arial,Helvetica,sans-serif;font-weight:700;letter-spacing:10px}</style></defs>
+<g fill="none" stroke="#E10F18" stroke-linecap="round" stroke-linejoin="round">
+<path d="M590 90 C500 0 335 20 280 135 C220 260 300 375 420 455" stroke-width="34"/><path d="M610 90 C700 0 865 20 920 135 C980 260 900 375 780 455" stroke-width="34"/>
+<path d="M120 310 H305 L335 275 L370 385 L410 175 L455 360 L490 300 H545" stroke-width="16"/><path d="M655 310 H745 L775 280 L805 360 L845 215 L885 350 L915 300 H1080" stroke-width="16"/>
+</g><g fill="#0B0B0B"><ellipse cx="545" cy="335" rx="38" ry="30" transform="rotate(-14 545 335)"/><ellipse cx="705" cy="285" rx="38" ry="30" transform="rotate(-14 705 285)"/><path d="M575 318 V180 L735 145 V268 H708 V183 L602 206 V318 Z"/></g>
+<g fill="#0B0B0B" stroke="#0B0B0B" stroke-width="24" stroke-linecap="round"><line x1="360" y1="430" x2="760" y2="610"/><line x1="840" y1="430" x2="440" y2="610"/><circle cx="360" cy="430" r="15"/><circle cx="840" cy="430" r="15"/></g>
+<text x="600" y="735" text-anchor="middle" font-size="118" class="word"><tspan fill="#E10F18">HEART</tspan><tspan fill="#0B0B0B">BEATS</tspan></text>
+<path d="M245 810 H350" stroke="#E10F18" stroke-width="10" stroke-linecap="round"/><path d="M850 810 H955" stroke="#E10F18" stroke-width="10" stroke-linecap="round"/><text x="600" y="826" text-anchor="middle" font-size="36" fill="#0B0B0B" class="sub">PERCUSSION STUDIO</text></svg>
