@@ -98,7 +98,10 @@
       link.rel = "noopener";
       action.replaceWith(link);
     } else {
-      action.addEventListener("click", () => showNotice("Library program details are still being finalized."));
+      const status = document.createElement("p");
+      status.className = "privacy-note";
+      status.textContent = "Program details are still being finalized.";
+      action.replaceWith(status);
     }
   });
   const serviceArea = document.getElementById("service-area");
