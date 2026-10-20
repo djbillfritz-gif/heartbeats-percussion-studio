@@ -42,7 +42,9 @@
 
   document.addEventListener("keydown", (event) => {
     if (event.key === "Escape") {
+      const focusWasInMenu = Boolean(mobileNav && menuButton && mobileNav.contains(document.activeElement));
       setMenu(false);
+      if (focusWasInMenu) menuButton.focus();
       closeNotice();
     }
   });
