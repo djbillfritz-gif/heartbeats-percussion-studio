@@ -42,7 +42,10 @@
 
   document.addEventListener("keydown", (event) => {
     if (event.key === "Escape") {
+      const menuWasOpen = menuButton && menuButton.getAttribute("aria-expanded") === "true";
+      const focusWasInMobileNav = mobileNav && mobileNav.contains(document.activeElement);
       setMenu(false);
+      if (menuWasOpen && focusWasInMobileNav) menuButton.focus();
       closeNotice();
     }
   });
