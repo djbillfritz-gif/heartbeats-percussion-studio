@@ -2,7 +2,7 @@
   "use strict";
 
   const cfg = window.HEARTBEATS_SITE || {};
-  const launchReady = cfg.launchReady === true;
+  const launchReady = cfg.launchReady === true && cfg.bookingFlowVerified === true;
   const menuButton = document.getElementById("menu-button");
   const mobileNav = document.getElementById("mobile-nav");
   const notice = document.getElementById("site-notice");
