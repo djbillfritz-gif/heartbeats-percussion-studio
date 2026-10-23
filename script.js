@@ -2,7 +2,16 @@
   "use strict";
 
   const cfg = window.HEARTBEATS_SITE || {};
-  const launchReady = cfg.launchReady === true && cfg.bookingFlowVerified === true;
+  const registrationUrl = typeof cfg.registrationUrl === "string" ? cfg.registrationUrl.trim() : "";
+  let registrationUrlValid = false;
+  try {
+    const parsedRegistrationUrl = new URL(registrationUrl);
+    registrationUrlValid = parsedRegistrationUrl.protocol === "https:" &&
+      !parsedRegistrationUrl.username && !parsedRegistrationUrl.password;
+  } catch (_) {
+    // Invalid registration links must never enable enrollment.
+  }
+  const launchReady = cfg.launchReady === true && cfg.bookingFlowVerified === true && registrationUrlValid;
   const menuButton = document.getElementById("menu-button");
   const mobileNav = document.getElementById("mobile-nav");
   const notice = document.getElementById("site-notice");
